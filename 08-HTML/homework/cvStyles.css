@@ -1,0 +1,47 @@
+body, figure{
+    display: flex;
+    justify-content: center; 
+    font-size: 15px;
+}
+
+div{
+    text-align: center;
+}
+
+#info, #personales{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;   
+}
+
+#personales{
+    background-color: beige;
+    width: 35vw;
+    margin-left: 2vw;
+}
+
+img{
+    width: 180px;
+    height: 230px;
+}
+
+#info{
+    background-color: rgb(30, 243, 243);
+    width: 60vw;
+    margin-left: 2px;
+    height: 95vh;
+    padding: 1px;
+}
+p{
+    margin-left: 5px;
+}
+
+article > h3{
+    margin-left: 15px;
+}
+
+ul{
+    list-style:none;
+    margin: 0 auto;
+}
